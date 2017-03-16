@@ -13,11 +13,11 @@ require "rexml/document"
 
 current_path = File.dirname(__FILE__)
 file_name = current_path + "/my_expenses.xml"
-unless File.exist?(file_name)
-  abort "File not found"
-end
+abort "File not found" unless File.exist?(file_name)
+
 file = File.new(file_name)
 doc = REXML::Document.new(file)
+file.close
 
 day_costs = {}
 
