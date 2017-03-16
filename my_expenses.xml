@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<expenses>
+  <expense date="9.7.2015" category="education" amount="900">
+    book RoR
+  </expense>
+
+  <expense date="1.7.2015" category="Good Programmer" amount="400" >
+    Wires
+  </expense>
+
+  <expense date="23.6.2015" category="Good Programmer" amount="3500" >
+    Softbox and tripod
+  </expense>
+</expenses>
